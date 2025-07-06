@@ -1,0 +1,27 @@
+
+--- Chatbot Documentation: Financial Insights AI
+    -- Overview
+	A simple Python-based chatbot that responds to predefined financial queries using a cleaned dataset for Microsoft and Tesla (2022–2024). It provides insights like revenue and 	net income through keyword matching.
+
+	--How It Works
+		Uses pandas to access financial data.
+
+		Built with Streamlit for an interactive UI.
+
+		Matches keywords (e.g., "Tesla", "2024", "net income") in user queries to return relevant data.
+
+   --Supported Queries
+	Examples like :
+
+	"Tesla total revenue in 2024"
+
+	"Microsoft net income change from 2023 to 2024"
+
+	"Net income of Tesla in 2023"
+
+ --Limitations
+	Only handles predefined, keyword-based questions.
+
+	No NLP or dynamic query understanding.
+
+	Limited to 2 companies and 3 years
